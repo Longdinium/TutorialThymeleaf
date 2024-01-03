@@ -5,7 +5,8 @@
     <title>Tutorial of Thymeleaf</title>
 </head>
 <body>
-    <h1>Thymeleaf Page</h1>
-    <!-- 静的なコンテンツの表示 -->
+    <h1 th:text="#{content.title}">Thymeleaf Page</h1>
+    <p th:text="#{content.message}"></p>
 </body>
 </html>
+
